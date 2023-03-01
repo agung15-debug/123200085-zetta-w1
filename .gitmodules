@@ -1,0 +1,3 @@
+[submodule "git-day1"]
+	path = git-day1
+	url = https://github.com/agung15-debug/git-day1.git
