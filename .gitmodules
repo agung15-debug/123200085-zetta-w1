@@ -4,3 +4,6 @@
 [submodule "git-day2"]
 	path = git-day2
 	url = https://github.com/agung15-debug/git-day2.git
+[submodule "git-day3"]
+	path = git-day3
+	url = https://github.com/agung15-debug/git-day3.git
