@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Day 1</title>
+  </head>
+  <body>
+    <center>
+      <form action="#">
+        <label for="title-book">Judul Buku : </label>
+        <input
+          type="text"
+          name="title-book"
+          id="title-book"
+          placeholder="Judul Buku"
+          required
+        />
+        <br />
+        <br />
+        <label for="price">Harga Buku : </label>
+        <input
+          type="number"
+          name="price"
+          id="price"
+          placeholder="Harga Buku"
+          min="0"
+          required
+        />
+        <br />
+        <br />
+        <label for="discount">Persentase Diskon : </label>
+        <input
+          type="number"
+          name="discount"
+          id="discount"
+          placeholder="Persentase Diskon"
+          min="0"
+          max="100"
+          required
+        />
+        <button type="button" onclick="calculate()">Hitung</button>
+      </form>
+      <div>
+        <h1>Hasil :</h1>
+        <div id="result"></div>
+      </div>
+    </center>
+    <script src="func_w2.js"></script>
+  </body>
+</html>
